@@ -14,6 +14,12 @@ format:
   revealjs:
     theme: [default, styles.scss]
     footer: "Linggo ng Lingkod at Likha | Research Forum 2026"
+    embed-resources: true
+title-slide-attributes:
+  data-background-image: images/bg.jpeg
+  data-background-size: cover
+  data-background-position: center
+  data-background-opacity: ".4"
 editor: visual
 ---
 
