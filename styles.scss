@@ -1,0 +1,24 @@
+/*-- scss:defaults --*/
+$presentation-title-slide-text-align: left;     
+
+/* styles.css */
+.title {
+  font-size: 45px !important; /* Adjust the size as needed */
+}
+
+/* styles.css */
+.subtitle {
+    font-size: 40px !important; /* Adjust the size as needed */
+}
+
+.quarto-title-author-name {
+  font-size: 30px;
+}
+
+.date {
+  font-size: 25px;
+}
+
+.reveal .footer {
+  font-size: 30px !important;
+}
