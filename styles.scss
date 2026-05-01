@@ -23,3 +23,16 @@ $presentation-title-slide-text-align: left;
   font-size: 30px !important;
   color: #000 !important;
 }
+
+/* Center ALL figure captions regardless of how they're generated */
+.reveal figcaption,
+.reveal .caption,
+.reveal p.caption,
+.reveal figure p {
+  text-align: center !important;
+}
+
+.reveal .slides section ul {
+  display: block;
+  width: 100%;
+}

@@ -19,7 +19,179 @@ title-slide-attributes:
   data-background-image: images/bg.jpeg
   data-background-size: cover
   data-background-position: center
-  data-background-opacity: ".4"
+  data-background-opacity: ".2"
+bibliography: reference.bib
+csl: apa.csl
 editor: visual
 ---
 
+# Introduction {background-image="images/bg.jpeg" background-opacity="0.2"}
+
+## Rationale -- Key Context
+
+- Industry 5.0 is reshaping education toward **human–machine collaboration and digital skill integration** [@xu21; @al-emran22]
+- Mathematics education must adapt by integrating **ICT, data literacy, and computational tools** for problem-solving and real-world applications [@manyika11]
+- Philippine education faces persistent **performance and digital gaps**, as shown in PISA results and ICT readiness issues [@oecd24; @servallos23]
+
+::: notes
+Industry 5.0 requires stronger integration of digital and computational skills in education. Mathematics teaching must therefore shift toward ICT and data-driven approaches. In the Philippines, existing learning and digital gaps highlight the need for this alignment.
+:::
+
+## Rationale -- Educational Response
+
+- Need for **ICT integration in Mathematics in the Modern World (MMW)** to develop data and coding competencies aligned with Industry 5.0 [@cmo-20-13; @oecd24]
+- Opportunity to use **open-source tools in mathematics education (e.g., R and RStudio)** to support accessible, cost-effective data analysis and learning [@gandrud20; @cetinkaya-rundel21]
+- **Flexible learning during COVID-19** highlighted the need for technology-enabled, adaptable learning systems [@cmo-04-20]
+
+::: notes
+Building from the need for Industry 5.0 alignment, mathematics education must now respond through practical integration of technology in instruction. Focusing on MMW, this means strengthening ICT use to develop students’ data and coding skills. Open-source tools like R and RStudio offer accessible solutions for this. The shift was further reinforced during COVID-19, where flexible learning exposed the importance of adaptable, technology-supported education systems.
+:::
+
+## Rationale -- Why Flexible Learning?
+
+![](images/typhoon.png){width=80%}
+
+![](images/heat.png){width=80%}
+
+![](images/crisis.png){width=80%}
+
+::: notes
+Furthermore this is being highlighted by class disruptions brought about by extreme weather events like super typhoons and high heat index. And also the current energy crisis we are facing because of the war in the middle east.
+:::
+
+## Theoretical Framework
+
+1. Transactional Distance Theory [@moore93]
+2. Flexible Learning [@alokaily2023]
+3. Technological, Pedagogical, and Content Knowledge (TPACK) [@lisenbee20]
+
+::: notes
+These are the theories that guided the study.
+:::
+
+## Conceptual Framework
+
+![Research Paradigm](images/paradigm.png)
+
+::: notes
+For the conceptual framework, this is the research paradigm.
+:::
+
+## Objectives {.smaller}
+
+1. To determine the performance of the students using R and RStudio in:
+
+    1.1 Coding
+    
+    1.2 Data Management
+2. To determine the effect of using MS Excel and R and RStudio in the performance of students in Data Management.
+3. To describe the experiences of the students in using MS Excel and R and RStudio.
+4. To describe the metacognitive skills of students in decision-making.
+5. To propose a training design on the use of statistical programming language in teaching Coding and Data Management.
+
+::: notes
+To address the changing demands of mathematics education, this study examined pre-service teachers’ experiences, metacognitive skills, and performance in coding and data management using R and RStudio or Microsoft Excel when they were enrolled in Mathematics in the Modern World course conducted in a flexible learning environment. The findings aimed to inform professional development programs for mathematics educators.
+:::
+
+## Statement of the Null Hypotheses
+
+- $H_{01}$: There is no significant difference between pretest scores and the posttest scores of the students in both groups.
+- $H_{02}$: There is no significant difference in the posttest scores between the two groups when pretest scores are statistically treated as covariates.
+
+# Methodology {background-image="images/bg.jpeg" background-opacity="0.2"}
+
+## Research Design
+
+**Explanatory Sequential Mixed Methods**
+
+:::: {.columns}
+
+::: {.column width="60%"}
+  + Quantitative Phase
+    - Quasi-experimental Design
+
+![Pretest-Posttest Non-Randomized Two-Group Design](images/qed.png)
+
+:::
+
+::: {.column width="40%"}
++ Qualitative Analysis
+    - Thematic Analysis
+    
+:::
+::::
+
+::: notes
+The study used an explanatory sequential mixed methods design—quantitative first, then qualitative to explain the results.
+A quasi-experimental pretest–posttest non-randomized two-group design compared the performance of the participants using RStudio and Microsoft Excel.
+The qualitative phase explored students’ experiences through thematic analysis.
+:::
+
+## Research Environment
+
+![Nueva Vizcaya State University Bayombong Campus Location Map](images/nvsu.png){width=200px}
+
+::: notes
+The study was conducted at Nueva Vizcaya State University – Bayombong Campus, involving students from the College of Teacher Education.
+::: 
+
+## Research Participants 
+
+- Purposive Sampling
+- First Year Students
+- Enrolled in Mathematics in the Modern World
+- 25 BSEd Mathematics | RStudio
+- 22 BSEd General Science | MS Excel
+
+::: notes
+Participants were selected through purposive sampling, with group assignment done through randomization.
+:::
+
+## Instrumentation {.smaller}
+
+:::: {.columns}
+::: {.column width="60%"}
+**Objective 1**
+
+- Evaluation Checklist for Coding 
+  + 30 Items
+  + Created
+
+- Evaluation Checklist for the RStudio Output
+  + 35 Items
+  + Created
+
+**Objective 2**
+
+- Knowledge Test for Data Management
+  + 21 Items
+  + 44 Points
+  + Adopted
+
+:::
+::: {.column width="40%"}
+**Objective 3**
+
+- Semi-structured Questionnaire
+  + 7 Open-ended Questions
+  + Created
+
+**Objective 4**
+
+- Metacognitive Skills Scale (MSS)
+  + 30 Items
+  + 5-point Likert Scale
+  + Strongly Disagree to Strongly Agree
+  + Adopted
+
+:::
+::::
+
+::: notes
+The study used five instruments to address 4 of the 5 objectives of the study. These instruments were validated, tested for reliability, and were used with proper permission.
+:::
+
+## Data Gathering Procedure
+
+
+## References
