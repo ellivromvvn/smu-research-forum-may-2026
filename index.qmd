@@ -166,7 +166,7 @@ Participants were selected through purposive sampling, with group assignment don
 - Knowledge Test for Data Management
   + 21 Items
   + 44 Points
-  + Adopted
+  + Adopted (no-citation requirement)
 
 :::
 ::: {.column width="40%"}
@@ -182,7 +182,7 @@ Participants were selected through purposive sampling, with group assignment don
   + 30 Items
   + 5-point Likert Scale
   + Strongly Disagree to Strongly Agree
-  + Adopted
+  + Adopted [@altindag2013]
 
 :::
 ::::
@@ -191,7 +191,286 @@ Participants were selected through purposive sampling, with group assignment don
 The study used five instruments to address 4 of the 5 objectives of the study. These instruments were validated, tested for reliability, and were used with proper permission.
 :::
 
-## Data Gathering Procedure
+## Data Gathering Procedure {.smaller}
 
+- Conducted in November 2024 (1st Semester, AY 2024–2025)
+- Implemented a four-week instructional intervention
+
+**Procedure Overview**: Pretest and orientation → progressive data analysis (univariate, bivariate, multivariate) → linear regression → posttest
+
+**Tools Utilized**: R/RStudio (Posit Cloud) for the experimental group; Microsoft Excel for the positive control group; myOpenMath for pretest and posttest administration
+
+**Data Sources**: RStudio output, Metacognitive Skills Scale (MSS), and semi-structured questionnaire
+
+**Ethical Compliance**: Institutional approval obtained, informed consent secured, and adherence to the Data Privacy Act of 2012 ensured
+
+::: notes
+Data were gathered over a four-week intervention in November 2024, from pretest to posttest.
+R/RStudio through posit cloud and MS Excel were used for instruction, while myOpenMath was used for assessments.
+Data sources included student report outputs, the MSS, and the semi-structured questionnaire, with all ethical protocols observed.
+:::
+
+## Data Treatment
+
+- **Descriptive Statistics**: Mean, SD, frequency, percentage
+- **Inferential Analysis**: t-tests and Quade’s test
+- **Qualitative Analysis**: Thematic analysis [@braun22]
+- **Mixed Methods**: Integration of quantitative and qualitative results
+- **Training Design**: CPD program developed based on findings (PRC framework)
+- **Tool**: R and RStudio [@r25]
+
+:::notes
+Data were analyzed using descriptive and inferential statistics, including t-tests and Quade’s test.
+Qualitative data were examined through thematic analysis, and findings were integrated using a mixed methods approach.
+Based on the results, a CPD training design was developed following the PRC framework, with all analyses performed in R and RStudio.
+:::
+
+# Results & Discussion {background-image="images/bg.jpeg" background-opacity="0.2"}
+
+---
+
+#### Performance of Students Using R and RStudio in Coding
+
+:::: {.columns}
+::: {.column width="65%"}
+![](images/section1a.png)
+:::
+::: {.column width="35%"}
+![](images/coding1a.png){width=60%}
+
+![](images/coding1b.png){width=60%}
+
+:::
+::::
+
+::: notes
+Most students demonstrated very satisfactory coding performance using R and RStudio, particularly in formatting, organization, and reproducible report structure.
+They performed well in descriptive tasks, such as data presentation and basic statistics.
+However, performance declined in more complex tasks like data visualization and hypothesis testing, where errors in variable mapping, parameter selection, and assumptions were observed.
+Overall, while students showed proficiency in syntax and structure, they lacked deeper statistical reasoning and independent coding skills, highlighting the need for more focused instruction in interpretation and analytical thinking.
+Some mistakes were Incorrect Binwidth, Inappropriate Test Value
+:::
+
+---
+
+#### Performance of Students Using R and RStudio in Data Management
+
+:::: {.columns}
+::: {.column width="65%"}
+![](images/section1b.png)
+:::
+::: {.column width="35%"}
+![](images/dm1a.png){width=60%}
+
+![](images/dm1b.png){width=60%}
+
+:::
+::::
+
+::: notes
+Overall, most students performed well in their R and RStudio reports, though some still need additional support.
+Students were generally able to present and describe data correctly, but common issues included poor table introduction and improper formatting.
+Difficulties were evident in visualization, hypothesis formulation, and assumption checking, indicating gaps in deeper understanding.
+Errors in interpretation showed the need for better alignment between code, output, and conclusions.
+While writing quality was generally good, limited attempts at complex tasks suggest low confidence in applying statistical thinking using R and RStudio.
+Some mistakes were Mismatched variables, mistakes in Results and Interpretation
+:::
+
+---
+
+#### Effect of Using MS Excel in the Performance of Students in Data Management
+
+:::: {.columns}
+::: {.column width="65%"}
+![](images/section2a.png){width=80%}
+:::
+::: {.column width="35%"}
+![](images/excel1a.png){width=60%}
+
+![](images/excel1b.png){width=60%}
+
+:::
+::::
+
+::: notes
+Overall, the MS Excel group showed satisfactory performance in the posttest, with most topics rated satisfactory to very satisfactory, except for descriptive statistics.
+At the item level, most questions were easy, indicating a good grasp of basic concepts like graphs and hypothesis writing.
+However, some students struggled with variable identification, distribution analysis, test selection, and interpretation of results, especially in more complex tasks like hypothesis testing.
+While Excel proved to be a useful tool, the findings highlight the need for strong instructional support and improved statistical reasoning, particularly for more advanced concepts.
+Here are some items where the students struggled.
+:::
+
+---
+
+#### Effect of Using R and RStudio in the Performance of Students in Data Management
+
+:::: {.columns}
+::: {.column width="65%"}
+![](images/section2b.png){width=80%}
+:::
+::: {.column width="35%"}
+![](images/rstudio1a.png){width=100%}
+
+![](images/rstudio1b.png){width=100%}
+
+:::
+::::
+
+::: notes
+Overall, the R and RStudio group showed satisfactory posttest performance, with most topics rated satisfactory to very satisfactory, except for descriptive statistics and linear regression and correlation, where students performed poorly.
+At the item level, most questions were easy, though eight were moderately difficult. Students struggled with variable classification, statistical concepts, correlation interpretation, test selection, and hypothesis formulation.
+Difficulties were also observed in confidence intervals, regression predictions, and multi-step hypothesis testing, indicating gaps in statistical reasoning.
+These results highlight the need for stronger scaffolding, targeted support, and improved instructional design to enhance students’ data management and analytical skills using R and RStudio.
+Here are some items where the students struggled.
+:::
+
+---
+
+#### Effect of Using MS Excel or RStudio in the Performance of Students in Data Management
+
+::: {style="font-size: 0.7em;"}
+Comparison of Mean Pretest Scores and Mean Posttest Scores in Each Group
+
+![](images/section2c.png){width=70%}
+
+Quade’s Test Result on Comparison between Performance using R and RStudio or Microsoft Excel with Pretest Scores as Covariate
+
+![](images/section2d.png){width=70%}
+
+:::
+
+::: notes
+Both groups showed significant improvement from pretest to posttest, as indicated by the paired t-test results (p < 0.001).
+However, when comparing posttest performance using Quade’s test, there was no statistically significant difference between the MS Excel and R/RStudio groups (p = 0.139).
+This suggests that while both instructional approaches were effective in improving student performance, neither group performed significantly better than the other after adjusting for pretest scores.
+:::
+
+---
+
+#### Experiences of the Students in Using MS Excel or  RStudio.
+
+::: {style="font-size: 0.7em;"}
+Summary of Themes for Students’ Experience in Using MS Excel or R and RStudio
+:::
+
+:::: {.columns}
+::: {.column width="50%"}
+
+![](images/section3a.png)
+
+:::
+::: {.column width="50%"}
+
+![](images/section3b.png)
+
+:::
+::::
+
+::: notes
+Students’ experiences revealed themes on initial challenges, learning through practice, and the practical value of MS Excel and R/RStudio.
+They appreciated automation and data presentation features, but faced issues with syntax, access, and familiarity.
+Overall, most students were willing to use and share their learning, though some lacked confidence in applying the tools independently.
+:::
+
+---
+
+#### Metacognitive Skills of Students in Decision-making
+
+::: {style="font-size: 0.7em;"}
+Means and Standard Deviations of the Students’ Metacognitive Skills in Using Microsoft Excel or R and RStudio
+:::
+
+![](images/section4.png)
+
+::: notes
+The results show that both groups generally demonstrated high levels of metacognitive skills.
+For MS Excel, all domains were rated high, with an overall mean of 3.70. For R and RStudio, the overall level was also high at 3.54, although learning and learning unit knowledge and planning and monitoring were rated only moderate.
+Overall, this indicates that students in both groups showed good metacognitive awareness, but the R/RStudio group may need more support in planning, monitoring, and understanding learning tasks.
+:::
+
+---
+
+#### Proposed Training Design on the Use of Statistical Programming Language in Teaching Coding and Data Management
+
+![](images/section5a.png)
+
+::: notes
+The title of the proposed training is “Navigating the Teaching of Coding and Data Management with R and RStudio”
+The training program is an international workshop designed to enhance teachers’ skills in coding and data management using R and RStudio.
+It was developed based on identified learner challenges and guided by the PRC CPD framework.
+The program includes modules on R and RStudio basics, data visualization, data wrangling, hypothesis testing, and Quarto-based instructional materials.
+Each module integrates lectures and hands-on activities to support practical application and teaching integration.
+:::
+
+# Conclusions & Recommendations {background-image="images/bg.jpeg" background-opacity="0.2"}
+
+## Conclusions {.smaller}
+
+- R and RStudio group showed **satisfactory coding and data management performance**, but students still struggled with **higher-order statistical reasoning** (e.g., testing, interpretation, visualization, and research formulation), indicating need for **guided and scaffolded instruction**.
+- The integration of **MS Excel and R/RStudio enhanced student performance**, with Excel supporting foundational learning and R/RStudio developing advanced analytical skills.
+- Students had **mixed experiences**: Excel was easier and familiar, while R/RStudio was more challenging but useful; despite difficulties, most gained skills and were willing to reuse and share them.
+- Students demonstrated **moderate to high metacognitive skills**, with slightly higher levels among MS Excel users, suggesting familiarity supports learning regulation.
+- The proposed **CPD training program** addresses identified gaps and supports effective integration of R and RStudio in mathematics education.
+
+::: notes
+Overall, the study concludes that students performed satisfactorily in R and RStudio but still need support in higher-level statistical reasoning.
+Both MS Excel and R/RStudio improved learning, serving different roles in skill development.
+Students reported mixed but generally positive experiences and showed willingness to continue using and sharing their learning.
+Metacognitive skills were moderate to high, with slightly better results for Excel users.
+Finally, the proposed CPD training responds to these findings by supporting teachers in effectively integrating R and RStudio in instruction.
+:::
+
+## Recommendations {.smaller}
+
+- Adopt a **scaffolded, data-driven approach** in teaching coding and data management using R and RStudio, with real-world applications and timely feedback
+- Strengthen the **K to 12 curriculum** to emphasize coding and statistical reasoning aligned with Industry 5.0 skills
+- Integrate **MS Excel and R/RStudio strategically**, supported by training, infrastructure, and project-based learning
+- Provide **step-by-step instruction and peer support**, ensuring access to devices and internet connectivity
+- Enhance **metacognitive skills development** through reflective activities, guided practice, and learning strategy monitoring
+- Implement the **proposed CPD training program** to upskill teachers in R and RStudio with hands-on, collaborative learning
+
+::: notes
+The recommendations focus on improving instruction in coding and data management through scaffolded learning and real-world applications.
+They also highlight strengthening curriculum support, integrating MS Excel and R/RStudio effectively, and ensuring adequate training and resources.
+Students should be guided through structured practice, peer support, and reflective activities to build confidence and skills.
+Finally, the proposed CPD training is recommended to equip teachers with practical skills in using R and RStudio.
+:::
+
+# Post-Study Impact {background-image="images/bg.jpeg" background-opacity="0.2"}
+
+## Research Extension and Community Engagement
+
+- Formation of the **R User Group of Nueva Vizcaya State University (RNVSU)**
+- Supported through funding from the **R Consortium**
+- Organized **5 international learning events/webinars**
+- Featured speakers from the **global R user community**
+- Promotes a **community of practice** for continued learning, collaboration, and capacity building in R programming
+
+::: notes
+As an extension of the study, the RNVSU was established with support from the R Consortium.
+The group has already organized five events featuring international speakers from the R community.
+This initiative promotes continuous learning and strengthens collaboration in R programming and data science.
+:::
+
+---
+
+![](images/rnvsu.png)
+
+---
+
+:::: {.columns}
+::: {.column width="85%"}
+
+![](images/rnvsu1.png)
+
+:::
+::: {.column width="15%"}
+
+![](images/qr-rnvsu.png)
+
+:::
+::::
+
+# Thank you! {background-image="images/bg.jpeg" background-opacity="0.2"}
 
 ## References
